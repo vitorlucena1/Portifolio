@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<style>
+    body {
+           background-color: lightblue;
+           /*background-image: url('./background.jpg');*/
+           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+       }
+     .social-icons img {
+            margin: 0 10px;
+            width: 50px;
+            height: 50px;
+        }
+        a {
+        text-decoration: none; /* Remove o sublinhado dos links */
+        }
+        nav {
+            background-color: lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+        .formation-box img {
+            max-width: 10%; /* Garante que a imagem não ultrapasse a largura da div */
+            height: auto;
+        }
+
+        .formation-box {
+            background-color: white;
+            margin: 50px auto;
+            padding: 20px;
+            width: 60%;
+            gap: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            align-items: center;
+        }
+
+
+        .formation-content {
+            display: flex;
+            align-items: center; /* Alinha logo e texto na mesma linha */
+            gap: 15px; /* Espaço entre a logo e o texto */
+        }
+
+        .formation-info h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .formation-box h2 {
+            color: #0073e6;
+            text-align: left;
+        }
+
+        .formation-info p {
+            margin: 2px 0;
+            font-size: 14px;
+            color: #000000;
+        }
+        
+        .formation-info p.date {
+            margin: 2px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+
+        /*.formation-box ul {
+            list-style: disc;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        .formation-box ul li {
+            font-size: 18px;
+            padding: 5px 0;
+        }*/
+        
+
+        .skills-box {
+            background-color: white;
+            margin: 50px auto;
+            padding: 20px;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .skills-box h2 {
+            color: #0073e6;
+            text-align: left;
+        }
+
+        .skills-box p {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .skills-box ul {
+            list-style: disc;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        .skills-box ul li {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+</style>
+
+<body>
+    <nav>
+    <ul>
+        <li><a href="./index.html">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+    </ul>
+</nav>
+    <center>
+        <h1>Sobre Mim</h1>
+        <p>Olá! Sou Vitor Lucena, tenho 21 anos, sou estudante de Engenharia de Computação no Senai Cimatec, estou no 6º semestre!</p>
+</center>
+
+<div class="formation-box">
+<h2 class="formation-title">Formação</h2>
+<div class="formation-content">
+    <img src="./SENAI_CIMATEC_COLOR.png" alt="Senai Cimatec">
+    <div class="formation-info">
+        <h3>SENAI CIMATEC</h3>
+        <p>Engenharia de Computação</p>
+        <p class="date">ago de 2022 - 2027</p>
+    </div>
+</div>
+</div>
+
+<div class="skills-box">
+    <h2>Soft Skills</h2>
+    <p>As soft skills são habilidades interpessoais e comportamentais que me ajudam a me destacar no ambiente profissional.</p>
+    <ul>
+        <li>Proatividade</li>
+        <li>Liderança</li>
+        <li>Trabalho em equipe</li>
+        <li>Comunicação eficaz</li>
+        <li>Resolução de problemas</li>
+        <li>Adaptabilidade</li>
+        <li>Autodidata</li>
+    </ul>
+</div>
+
+<div class="skills-box">
+    <h2>Hard Skills</h2>
+    <p>As hard skills são competências técnicas adquiridas por meio de estudo e prática.</p>
+    <ul>
+        <li>Programação Básica em Python e Itermediária em C, C++ e Java.</li>
+        <li>Aprendendo Desenvolvimento Web (HTML, CSS, JavaScript)</li>
+        <li>Conhecimento intermediário em Banco de Dados (SQL)</li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
